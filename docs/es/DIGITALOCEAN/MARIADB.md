@@ -1,5 +1,19 @@
 # MariaDB
 
+## Conexión
+
+```
+$ mysql -u user -p
+```
+
+## Consultas
+
+* Lista Databases: 
+
+    ```bash
+    mysql> SHOW DATABASES;
+    ```
+
 ## Acceso Remoto
 
 1. Modificar el archivo de configuración de MySQL:
