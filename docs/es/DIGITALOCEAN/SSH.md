@@ -20,7 +20,7 @@ Respuesta:
 
     ```bash
     Generating public/private rsa key pair.
-    Enter file in which to save the key (C:\Usera\[nombre-de-usuario]/.ssh/id_rsa): C:\Usera\[nombre-de-usuario]/.ssh/[nombre-de-archivo]
+    Enter file in which to save the key (C:\Users\[nombre-de-usuario]/.ssh/id_rsa): C:\Users\[nombre-de-usuario]/.ssh/[nombre-de-archivo]
     ```
 
 2. Si deseas colocarle una contraseña (Si no deseas con contraseña <kbd>Enter</kbd>)
@@ -42,7 +42,7 @@ Respuesta:
 2. Opcion 2: (Configuración)
 
     - Configuración
-        En el directorio **C:\Users\[nombre-de-usuario]\.ssh\** se crea un archivo **config** (Sin extensión)
+        En el directorio **C:\\Users\\[nombre-de-usuario]\\.ssh\\** se crea un archivo **config** (Sin extensión)
 
         Se agrega la siguiente configuración:
 
@@ -51,9 +51,9 @@ Respuesta:
         ServerAliveCountMax 3
 
         Host [NombreComando]
-        HostName [IPAddress]
-        User [Usuario]
-        IdentityFile C:\Users\[nombre-de-usuario]\.ssh\[nombre-de-archivo] (sin extensión)
+            HostName [IPAddress]
+            User [Usuario]
+            IdentityFile C:\Users\[nombre-de-usuario]\.ssh\[nombre-de-archivo] (sin extensión)
         ```
 
     - Conexión

@@ -1,7 +1,5 @@
 # Summary
 
-![IMG](../cover.jpg)
-
 * [Introduction](README.md)
 * [DigitalOcean](DIGITALOCEAN/README.md)
     * [SSH](DIGITALOCEAN/SSH.md)
